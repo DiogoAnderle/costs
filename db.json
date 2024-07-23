@@ -1,25 +1,48 @@
 {
-    "projects":[],
-    "categories":[
-        {
-            "id": 1,
-            "name":"Infra"
-        },
-        {
-            "id": 2,
-            "name":"Desenvolvimento"
-        },
-        {
-            "id": 3,
-            "name":"Criação de Conteúdo"
-        },
-        {
-            "id": 4,
-            "name":"Design"
-        },
-        {
-            "id": 5,
-            "name":"Planejamento"
-        }
-    ]
+  "projects": [
+    {
+      "id": "c760",
+      "name": "Chester Small",
+      "budget": "78000",
+      "category": {
+        "id": "3",
+        "name": "Content"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "356b",
+      "name": "Olga Bishop",
+      "budget": "15000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Content"
+    },
+    {
+      "id": "4",
+      "name": "Design"
+    },
+    {
+      "id": "5",
+      "name": "Planejamento"
+    }
+  ]
 }
