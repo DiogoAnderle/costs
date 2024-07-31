@@ -1,4 +1,5 @@
 {
+  "homepage": "https://diogoanderle.github.io/costs/",
   "name": "costs",
   "version": "0.1.0",
   "private": true,
@@ -17,9 +18,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "backend":"json-server --watch db.json --port 5000",
+    "backend": "json-server --watch db.json --port 5000",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
